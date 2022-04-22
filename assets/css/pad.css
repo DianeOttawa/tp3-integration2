@@ -1,0 +1,115 @@
+nav {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.header {
+    display: block;
+    content: "Version Ecran Pad (>820px)";
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.header ul {
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    width: 80%;
+    list-style: none;
+}
+
+.header li {
+    display: block;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+h1 {
+    color : #a55122;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+    width: 80%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+section {
+    /* display: flex;
+    flex-direction: column; */
+    width: 90%;
+    margin: auto;
+}
+
+section img {
+    width : 100%;
+    height: 100%;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.top {
+   width: 80%;
+   padding: 0;
+   margin: 0;
+}
+
+.galerie {
+    padding: 0;
+    margin: 0;
+}
+
+.conteneur hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.vignette {
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+footer hr {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display:block;
+}
+
